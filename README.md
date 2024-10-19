@@ -92,6 +92,7 @@ gcc client.c -o client -lpthread
 gcc server.c -o server -lpthread   
 
 ```
+<br>
 
 3. **Running of Server**
 
