@@ -3,7 +3,6 @@
 
 ## Project Overview
 This project implements a multi-threaded network server that processes text files sent by clients and counts the occurrences of a search term in the files. The server runs in the background, and multiple clients send text files to the server using `netcat`.
-
 <br>
 
 ---
@@ -19,6 +18,7 @@ This project implements a multi-threaded network server that processes text file
   - Must have the title as the first line
 
 <br>
+
 ---
 
 ## Requirements
