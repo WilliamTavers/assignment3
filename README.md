@@ -33,43 +33,43 @@ You will need:
 
 1. **Compilation**:
 
-''' 
+``` 
 
 make
 
-'''
+``` 
 
 or for server.c:
 
-'''
+``` 
 
 make server
 
-'''
+``` 
 
 or for client.c: 
 
-''' 
+``` 
 
 make client
 
-'''
+``` 
 
 <br>
 
 2. **Running**:
 
-'''
+``` 
 
 make run
 
-''' 
+``` 
 
 <br>
 
 3. **Cleaning**:
 
-''' 
+``` 
 
 make clean
 
