@@ -16,7 +16,6 @@ This project implements a multi-threaded network server that processes text file
   - Must be in same directory
   - Must be in the bash script in files array
   - Must have the title as the first line
-<br>
 
 ---
 
