@@ -82,6 +82,7 @@ make clean
 1. **Compilation of Client**
 
 ```
+
 gcc client.c -o client -lpthread   
 
 ```
@@ -90,6 +91,7 @@ gcc client.c -o client -lpthread
 2. **Compilation of Server**
 
 ```
+
 gcc server.c -o server -lpthread   
 
 ```
@@ -98,6 +100,7 @@ gcc server.c -o server -lpthread
 3. **Running of Server**
 
 ```
+
 ./server -l 12345 -p "happy"
 
 ```
@@ -106,6 +109,7 @@ gcc server.c -o server -lpthread
 4. **Compilation of Bash**
 
 ```
+
 chmod +x run_clients.sh
 
 ```
@@ -114,6 +118,7 @@ chmod +x run_clients.sh
 5. **Running of Bash**
 
 ```
+
 ./run_clients.sh
 
 ```
