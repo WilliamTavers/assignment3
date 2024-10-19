@@ -31,25 +31,19 @@ You will need:
 1. **Compilation**:
 
 ``` 
-
 make
-
 ``` 
 
 or for server.c:
 
 ``` 
-
 make server
-
 ``` 
 
 or for client.c: 
 
 ``` 
-
 make client
-
 ``` 
 
 <br>
@@ -57,9 +51,7 @@ make client
 2. **Running**:
 
 ``` 
-
 make run
-
 ``` 
 
 <br>
@@ -67,9 +59,7 @@ make run
 3. **Cleaning**:
 
 ``` 
-
 make clean
-
 ```
 
 
@@ -82,45 +72,35 @@ make clean
 1. **Compilation of Client**
 
 ```
-
 gcc client.c -o client -lpthread   
-
 ```
 <br>
 
 2. **Compilation of Server**
 
 ```
-
 gcc server.c -o server -lpthread   
-
 ```
 <br>
 
 3. **Running of Server**
 
 ```
-
 ./server -l 12345 -p "happy"
-
 ```
 <br>
 
 4. **Compilation of Bash**
 
 ```
-
 chmod +x run_clients.sh
-
 ```
 <br>
 
 5. **Running of Bash**
 
 ```
-
 ./run_clients.sh
-
 ```
 
 
