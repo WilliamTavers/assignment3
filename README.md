@@ -1,7 +1,5 @@
 # Multi-Threaded Network Server for Pattern Analysis
 
-<br> 
-
 
 ## Project Overview
 This project implements a multi-threaded network server that processes text files sent by clients and counts the occurrences of a search term in the files. The server runs in the background, and multiple clients send text files to the server using `netcat`.
