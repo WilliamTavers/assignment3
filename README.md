@@ -27,7 +27,7 @@ You will need:
 
 ---
 
-## Running the Program
+## Running the Program (Make)
 
 <br>
 
