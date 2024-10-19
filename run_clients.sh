@@ -18,8 +18,8 @@ files=("./f1.txt" "./f2.txt" "./f3.txt" "./f4.txt" "./f5.txt")
 for i in "${!files[@]}"; do
   echo "Starting client $((i+1)) using file ${files[$i]}"
   nc localhost 12345 -i 1 < "${files[$i]}" &
-  sleep 0.5  # Add a delay of 0.5 seconds between clients
+  sleep 0.5  
 done
 
-wait  # Wait for all background clients to finish
+wait 
 echo "All clients finished"
