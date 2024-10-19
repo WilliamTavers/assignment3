@@ -26,21 +26,21 @@ clean:
 
 # Run the server and client script in sequence
 run: $(SERVER_EXEC)
-	# Kill any previous server process
+	# killing any previous server processes
 	pkill -f "./server" || true  
-	# Start the server in the background and capture its PID
+	# starting the server
 	./$(SERVER_EXEC) -l $(PORT) -p $(SEARCH_TERM) &  
-	SERVER_PID=$$!  # Use $$! to correctly capture the PID of the background process
-	echo "Server started with PID: $$SERVER_PID"  # Debugging output to see the PID
-	# Give the server a moment to start
+	# giving the server a moment to start
 	sleep 2  
-	# Ensure client script is executable
+	# ensuring client script is executable
 	chmod +x $(RUN_SCRIPT)
-	# Run the client script
+	# running the client script
 	./$(RUN_SCRIPT)
-	# Wait for all client processes to finish
+	# waiting for all clients to finish
 	wait  
-	# Now that clients are done, gracefully stop the server
+	# sleeping for final frequency results
+	sleep 5
+	# stopping server as clients done
 	pkill -f "./server" && echo "Server stopped successfully" || echo "Server was not running"	
 	echo "Server stopped"
 
