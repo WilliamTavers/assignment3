@@ -85,6 +85,7 @@ make clean
 gcc client.c -o client -lpthread   
 
 ```
+<br>
 
 2. **Compilation of Server**
 
@@ -100,6 +101,7 @@ gcc server.c -o server -lpthread
 ./server -l 12345 -p "happy"
 
 ```
+<br>
 
 4. **Compilation of Bash**
 
@@ -107,6 +109,7 @@ gcc server.c -o server -lpthread
 chmod +x run_clients.sh
 
 ```
+<br>
 
 5. **Running of Bash**
 
