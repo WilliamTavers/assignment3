@@ -24,7 +24,7 @@ You will need:
 
 ---
 
-## Build Using Make
+## Build with Make
 
 <br>
 
@@ -75,7 +75,7 @@ make clean
 
 ---
 
-## Build Without Make
+## Build without Make
 
 <br> 
 
