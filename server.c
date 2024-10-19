@@ -117,9 +117,12 @@ int main(int argc, char *argv[]) {
         pthread_detach(thread_id);  // Detach the thread to avoid memory leaks
     }
 
+
+
     // Close the socket and free global list
     free_global_list(global_list_head);
     close(sockfd);
+
     return 0;
 }
 
@@ -215,7 +218,7 @@ void *handle_client(void *params) {
     int *int_params = (int *)params;
     int newsockfd = int_params[0];  // Extract socket
     int connection_order = int_params[1];  // Extract connection order
-    char *filename = (char *)(int_params + 2); // Extract filename
+    // char *filename = (char *)(int_params + 2); // Extract filename
     free(params);  // Free the allocated memory
 
     char buffer[BUFFER_SIZE];
