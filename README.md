@@ -70,4 +70,50 @@ make run
 
 make clean
 
-``` 
+```
+
+
+---
+
+## Build Without Make
+
+<br> 
+
+1. **Compilation of Client**
+
+```
+gcc client.c -o client -lpthread   
+
+```
+
+2. **Compilation of Server**
+
+```
+gcc server.c -o server -lpthread   
+
+```
+
+3. **Running of Server**
+
+```
+./server -l 12345 -p "happy"
+
+```
+
+4. **Compilation of Bash**
+
+```
+chmod +x run_clients.sh
+
+```
+
+5. **Running of Bash**
+
+```
+./run_clients.sh
+
+```
+
+
+
+
