@@ -24,7 +24,7 @@ You will need:
 
 ---
 
-## Build
+## Build Using Make
 
 <br>
 
