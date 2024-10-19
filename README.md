@@ -8,7 +8,7 @@ This project implements a multi-threaded network server that processes text file
 
 ## Files
 - **server.c**: The C program for the server, which accepts client connections, processes the input (books) and stores the books into a global linked list line-by-line. There is also a list for each book, and a list for each line which contains the search pattern for each book.
-- **client.c**: Client code. 
+- **client.c**: Client code, and use netcat (nc) to send books to the server
 - **run_clients.sh**: A Bash script that simulates multiple clients connecting to the server and sending text files for processing.
 - **Makefile**: Automates the process of compiling the server and client programs and running them.
 - **txt Files**: Txt files are needed for testing. For test files to work:
