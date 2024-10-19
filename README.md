@@ -11,7 +11,10 @@ This project implements a multi-threaded network server that processes text file
 - **client.c**: Client code. 
 - **run_clients.sh**: A Bash script that simulates multiple clients connecting to the server and sending text files for processing.
 - **Makefile**: Automates the process of compiling the server and client programs and running them.
-- **txt Files**: for testing, ensure the title is in the first line for ease of testing. 
+- **txt Files**: Txt files are needed for testing. For test files to work:
+  - Must be in same directory
+  - Must be in the bash script in files array
+  - Must have the title as the first line
 
 ---
 
