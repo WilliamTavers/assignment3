@@ -24,7 +24,7 @@ You will need:
 
 ---
 
-## Running the Program (Make)
+## Build
 
 <br>
 
