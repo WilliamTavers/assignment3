@@ -111,9 +111,11 @@ chmod +x run_clients.sh
 
 ## Important
 
-It is important that all requirements and files are used as expected (i.e., if txt files are not in files in bash script then it will not run as expected)
-The make file kills any server / process running that is server at start and end of make. 
-Before killing the server at the end, the makefile sends a sleep for 5 seconds (time for a pattern frequency test), to ensure that we get a final pattern frequency before the server is killed
+- It is important that all requirements and files are used as expected (i.e., if txt files are not in files in bash script then it will not run as expected)
+- The make file kills any server / process running that is server at start and end of make
+- Before killing the server at the end, the makefile sends a sleep for 5 seconds (time for a pattern frequency test), to ensure that we get a final pattern frequency before the server is killed
+
+
 
 
 
