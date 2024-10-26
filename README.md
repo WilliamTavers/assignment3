@@ -69,7 +69,7 @@ make clean
 
 ---
 
-## Build without Make
+## Build with Bash
 
 <br> 
 
@@ -108,6 +108,42 @@ chmod +x run_clients.sh
 ```
 
 
+<br>
+
+---
+
+---
+
+## Build without Bash
+
+<br> 
+
+1. **Compilation of Client**
+
+```
+gcc client.c -o client -lpthread   
+```
+<br>
+
+2. **Compilation of Server**
+
+```
+gcc server.c -o server -lpthread   
+```
+<br>
+
+3. **Running of Server**
+
+```
+./server -l 12345 -p "happy"
+```
+<br>
+
+4. **Connecting Clients**
+
+```
+nc localhost 12345 -i <delay> < file.txt
+```
 <br>
 
 ---
